@@ -39,4 +39,24 @@
     //}
 
     //Problem Five
-    
+ 
+    //for (let i = 0; i <= 45; i++) {
+        //if (i % 3 === 0 && i % 5 === 0) {
+          //  console.log('FizzBuzz');
+        //}
+        //else if (i % 3 === 0) {
+          //  console.log('Fizz');
+        //}
+        //else if (i % 5 === 0) {
+          //  console.log('Buzz');
+        //} else {
+        //    console.log(i)
+      //  }
+        
+    //}
+
+    //Problem Six
+    let thisIsAnArray = ["element1", "element2", "element3", "element4"];
+    for (let i = 0; i <= thisIsAnArray.length - 1; i++) {
+    console.log(thisIsAnArray[i]) 
+    }
