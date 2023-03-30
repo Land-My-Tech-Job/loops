@@ -56,7 +56,16 @@
     //}
 
     //Problem Six
-    let thisIsAnArray = ["element1", "element2", "element3", "element4"];
-    for (let i = 0; i <= thisIsAnArray.length - 1; i++) {
-    console.log(thisIsAnArray[i]) 
+    //let thisIsAnArray = ["element1", "element2", "element3", "element4"];
+    //for (let i = 0; i <= thisIsAnArray.length - 1; i++) {
+    //console.log(thisIsAnArray[i]) 
+    //}
+
+    //Problem Seven 
+    let sum = 0
+    let numbersArray = [1,13,22,123,49]
+    for (let i = 0; i < numbersArray.length; i++) {
+      sum += numbersArray[i];
     }
+      console.log("The sum of all the elements is " + sum)
+    
